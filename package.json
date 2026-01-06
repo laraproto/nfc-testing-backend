@@ -1,0 +1,23 @@
+{
+  "name": "nfc-testing-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --hot index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "better-auth": "^1.4.10",
+    "hono": "^4.11.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  }
+}

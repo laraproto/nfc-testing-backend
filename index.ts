@@ -18,7 +18,7 @@ app.post("/cards", async (c) => {
   await sql`INSERT INTO cards ${sql(payload)}`;
 
   return c.json({
-    link: `exponfc://card?uuid=${id}`,
+    link: `expo-nfc-testing://card?uuid=${id}`,
   });
 });
 
